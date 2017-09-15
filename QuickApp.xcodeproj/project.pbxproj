@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11CB5099F1726C2F316129CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A202BF1C3A5B14B967DC756 /* CoreMedia.framework */; };
+		59C4A224206742A50738B841 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0340B9C83D9FA40A08455CB1 /* QuartzCore.framework */; };
+		7BCC1C142EA96F1302187251 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C47723552C0D7816E2A814 /* CoreText.framework */; };
 		8B07A0681F588B0F00B3EA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A0671F588B0F00B3EA19 /* main.m */; };
 		8B07A06B1F588B0F00B3EA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A06A1F588B0F00B3EA19 /* AppDelegate.m */; };
 		8B07A06E1F588B0F00B3EA19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A06D1F588B0F00B3EA19 /* ViewController.m */; };
 		8B07A0711F588B0F00B3EA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A06F1F588B0F00B3EA19 /* Main.storyboard */; };
 		8B07A0731F588B0F00B3EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0721F588B0F00B3EA19 /* Assets.xcassets */; };
 		8B07A0761F588B0F00B3EA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0741F588B0F00B3EA19 /* LaunchScreen.storyboard */; };
+		9A4E757779924D72B8820B30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D7AE86AAAB8A4FEF75AD53 /* AVFoundation.framework */; };
+		A9FC1BFCFE836F66CD2097D3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103CDDE03C722406E00DF589 /* CoreVideo.framework */; };
+		C2EE6CDA8FFC3E7300D3A2F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EAC5E76344D08D1DA0EB2A /* SystemConfiguration.framework */; };
+		E7EC49F97901C9270AFDF695 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62EE47565F6A7B7B3EB2540 /* BuddyBuildSDK.framework */; };
+		EED4D0AA4632E6268371F80A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC497235F0F6AC9C2C0C882B /* AssetsLibrary.framework */; };
+		FF86F335F90769B74104C52F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C9209ED1D5EF7E556094BA /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0340B9C83D9FA40A08455CB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		103CDDE03C722406E00DF589 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		55EAC5E76344D08D1DA0EB2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		72C47723552C0D7816E2A814 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7A202BF1C3A5B14B967DC756 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		8B07A0631F588B0F00B3EA19 /* QuickApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B07A0671F588B0F00B3EA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B07A0691F588B0F00B3EA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +40,10 @@
 		8B07A0721F588B0F00B3EA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B07A0751F588B0F00B3EA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B07A0771F588B0F00B3EA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EE47565F6A7B7B3EB2540 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		B0D7AE86AAAB8A4FEF75AD53 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6C9209ED1D5EF7E556094BA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DC497235F0F6AC9C2C0C882B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EC49F97901C9270AFDF695 /* BuddyBuildSDK.framework in Frameworks */,
+				EED4D0AA4632E6268371F80A /* AssetsLibrary.framework in Frameworks */,
+				7BCC1C142EA96F1302187251 /* CoreText.framework in Frameworks */,
+				FF86F335F90769B74104C52F /* CoreTelephony.framework in Frameworks */,
+				C2EE6CDA8FFC3E7300D3A2F2 /* SystemConfiguration.framework in Frameworks */,
+				59C4A224206742A50738B841 /* QuartzCore.framework in Frameworks */,
+				9A4E757779924D72B8820B30 /* AVFoundation.framework in Frameworks */,
+				11CB5099F1726C2F316129CF /* CoreMedia.framework in Frameworks */,
+				A9FC1BFCFE836F66CD2097D3 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,7 @@
 			children = (
 				8B07A0651F588B0F00B3EA19 /* QuickApp */,
 				8B07A0641F588B0F00B3EA19 /* Products */,
+				D391A1056C59EC4C5C4BCCA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +105,22 @@
 				8B07A0671F588B0F00B3EA19 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D391A1056C59EC4C5C4BCCA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62EE47565F6A7B7B3EB2540 /* BuddyBuildSDK.framework */,
+				DC497235F0F6AC9C2C0C882B /* AssetsLibrary.framework */,
+				72C47723552C0D7816E2A814 /* CoreText.framework */,
+				B6C9209ED1D5EF7E556094BA /* CoreTelephony.framework */,
+				55EAC5E76344D08D1DA0EB2A /* SystemConfiguration.framework */,
+				0340B9C83D9FA40A08455CB1 /* QuartzCore.framework */,
+				B0D7AE86AAAB8A4FEF75AD53 /* AVFoundation.framework */,
+				7A202BF1C3A5B14B967DC756 /* CoreMedia.framework */,
+				103CDDE03C722406E00DF589 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +320,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QuickApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickApp;
@@ -288,6 +336,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QuickApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickApp;
